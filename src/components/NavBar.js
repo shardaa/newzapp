@@ -29,7 +29,7 @@ export class NavBar extends Component {
                   Home{" "}
                 </Link>
               </li>
-             
+
               <li className="nav-item">
                 <Link className="nav-link" to="/business">
                   Business

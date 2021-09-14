@@ -25,6 +25,7 @@ export class news extends Component {
       articles: [],
       loading: false,
       page: 1,
+      totalResults:0
     };
     document.title = `${this.capitalizeFirstLetter(
       this.props.category
